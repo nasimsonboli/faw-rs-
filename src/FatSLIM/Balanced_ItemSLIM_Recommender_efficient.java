@@ -23,7 +23,7 @@ import java.util.*;
  * written by Nasim Sonboli
  */
 @ModelData({"isRanking", "slim", "coefficientMatrix", "trainMatrix", "similarityMatrix", "knn"})
-public class Slim_FatItems_Recommender_efficient extends AbstractRecommender {
+public class Balanced_ItemSLIM_Recommender_efficient extends AbstractRecommender {
     /**
      * the number of iterations
      */
