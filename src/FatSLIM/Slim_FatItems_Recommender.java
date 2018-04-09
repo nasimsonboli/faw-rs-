@@ -123,7 +123,7 @@ public class Slim_FatItems_Recommender extends AbstractRecommender {
         String content = readFile(filenames[0]);
         String[] userSplited = content.split("\n");
 
-        groupMembershipVector = new double[numUsers];
+        groupMembershipVector = new double[numItems];
         //fill in the membership vector by membership numbers (1, -1)
         for (int itemIdx = 0; itemIdx < numItems; itemIdx++) {
             //each row contains itemIdx and membership, take only the membership number
